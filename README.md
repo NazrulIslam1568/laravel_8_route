@@ -1,2 +1,2 @@
-# laravel_8_route
-Laravel 8 routing
+use App\Http\Controllers\PostController;
+Route::get('/post', [PostController::class, 'index']);
